@@ -1,9 +1,7 @@
 import React, {Component} from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
-
 class Schedule extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -11,12 +9,10 @@ class Schedule extends Component {
     }
   }
 
-
   boxClick = (e) => {
     console.log('test');
     this.setState({
       bgColor: "none"
-
     })
   }
 
