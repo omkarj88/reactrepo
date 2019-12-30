@@ -1,21 +1,3 @@
-// import React from 'react'
-// import '../App.css'
-
-// const Resume = () => {
-//   return   (
-//     <div>
-//      <ul class='nav nav-pills'>
-//        <li>Info</l  i>
-//        <li>Projects</li>
-//        <li>Hobbies</li>
-//        <li>Notes</li>
-//      </ul>
-//     </div>
-//   )
-// }
-
-// export default Resume
-
 import React from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
