@@ -1,6 +1,3 @@
-// A simple data API that will be used to get the data for our
-// components. On a real website, a more robust data fetching
-// solution would be more appropriate.
 const PlayerAPI = {
     players: [
       { number: 1, name: "Nancy", lname:'Davolio',  address:'Hj road a1-101', city:'Pune', postal:12, phone:123, country:'India', image : 'img123.png' },
