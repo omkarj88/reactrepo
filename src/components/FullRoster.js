@@ -3,8 +3,6 @@ import PlayerAPI from '../api'
 import { Link } from 'react-router-dom'
 import '../App.css';
 
-// The FullRoster iterates over all of the players and creates
-// a link to their profile page.
 const FullRoster = () => (
   <div className='container-fluid'>
     <h4 className='text-center'>Employee List</h4>
